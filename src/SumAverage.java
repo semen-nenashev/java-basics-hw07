@@ -41,13 +41,13 @@ public class SumAverage {
      */
     public static double average(int lowerBound, int upperBound) {
         double sum = 0;
-        double counter =0;
-        double  avarage = 0;
+        double counter = 0;
+        double avarage = 0;
         for (int i = lowerBound; i <= upperBound; i++) {
             sum += i;
             counter++;
         }
-        avarage = sum/counter;
+        avarage = sum / counter;
         return avarage;
     }
 
